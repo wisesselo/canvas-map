@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+#info-box {
+  position: relative;
+  width: 90vw;
+  height: 2.5rem;
+  padding: 0.25rem;
+  margin: 0.5rem auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+#canvas-container {
+  position: relative;
+  width: 90vw;
+  height: 43vw;
+  padding: 0.25rem; /* match info-box padding */
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+canvas {
+  transform-origin: 0px 0px;
+  transform: scale(1) translate(0px, 0px);
+  position: absolute;
+}
