@@ -161,10 +161,10 @@ window.addEventListener("load", function () {
 
             if (e.deltaY < 0) {
                 if (zoomScale >= MAX_SCALE * (1 / 6)) return;   // limit zooming in
-                zoomScale *= 1.1;
+                zoomScale *= 1.2;
             } else {
                 if (zoomScale <= 1 / MAX_SCALE) return;         // limit zooming out
-                zoomScale /= 1.1;
+                zoomScale /= 1.2;
             }
 
             // Adjust pointX and pointY to keep mouse position relative to canvas
