@@ -29,4 +29,5 @@ canvas {
   transform-origin: 0px 0px;
   transform: scale(1) translate(0px, 0px);
   position: absolute;
+  image-rendering: auto; /* pixelated=22.5/23.5s auto=22.6/22.4s smooth=23.0/22.6s crisp-edges=23.7/23.3s */
 }
