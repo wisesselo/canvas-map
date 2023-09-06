@@ -7,4 +7,4 @@ Inspired by OpenLayers, Leaflet, MapLibre
 
 Data is in geojson format, prepared using QGIS and Python
 
-Demo: canvas-map.tatejenkins.com (Only tested with Firefox and Chrome for Windows)
+Demo: https://canvas-map.tatejenkins.com/ (Only tested with Firefox and Chrome for Windows)
