@@ -142,6 +142,7 @@ window.addEventListener("load", function () {
 
         const container = document.getElementById('canvas-container');
         document.getElementById('canvas-loading').innerHTML = "";
+        document.getElementById('info-box').innerHTML = "Pan/zoom with mouse; click on the map to display info here.";
 
         let isDown = false;
         let isPanning = false;
@@ -227,7 +228,7 @@ window.addEventListener("load", function () {
                     bboxData = pathData.bbox;
                     infoBox.innerHTML = `Latitude: ${(((bboxData[0] + bboxData[2]) / 2).toFixed(2))}, 
                                         Longitude: ${(((bboxData[1] + bboxData[3]) / 2).toFixed(2))},
-                                        Monthly Solar Radiation:<br>
+                                        Monthly Solar Radiation (kJ/m^2/day):<br>
                                         Jan: ${pathData._median},
                                         Feb: ${pathData._median_2},
                                         Mar: ${pathData._median_3},
