@@ -142,7 +142,7 @@ window.addEventListener("load", function () {
 
         const container = document.getElementById('canvas-container');
         document.getElementById('canvas-loading').innerHTML = "";
-        document.getElementById('info-box').innerHTML = "Pan/zoom with mouse; click on the map to display info here.";
+        document.getElementById('info-box').innerHTML = `Pan/zoom with mouse; click on the map to display info here.`;
 
         let isDown = false;
         let isPanning = false;
